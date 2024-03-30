@@ -1,0 +1,322 @@
+package notendurchschnitttt;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.BevelBorder;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.SwingConstants;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+
+public class FensterNotendurchschnitt extends JFrame {
+	
+	public class Test {
+		public static void main(String[] args) {
+			JFrame frame = new JFrame();
+			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			frame.setBounds(100, 100, 10000, 10000);
+			frame.setVisible(true);
+		}
+	}
+
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	private JTextField textField_4;
+	private JTextField textField_5;
+	private JTextField textField_6;
+	private JTextField textField_7;
+	private JTextField textField_8;
+	private JTextField textField_9;
+	private JTextField textField_10;
+	private JTextField textField_11;
+	private JTextField textField_12;
+	private JTextField textField_13;
+	private JTextField textField_14;
+	private JTextField textField_15;
+	private JTextField textField_16;
+	private JTextField textField_17;
+	protected JLabel txt1;
+	protected JLabel txt2;
+	protected JLabel txt3;
+	protected JLabel txt4;
+	protected JLabel txt5;
+	protected JLabel txt6;
+	protected JLabel txt7;
+	protected JLabel txt8;
+	protected JLabel txt9;
+	protected JLabel txt10;
+	protected JLabel txt11;
+	protected JLabel txt13;
+	protected JLabel txt14;
+	protected JLabel txt17;
+	protected JLabel txt12;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					FensterNotendurchschnitt frame = new FensterNotendurchschnitt();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public FensterNotendurchschnitt() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 662, 637);
+		contentPane = new JPanel();
+		contentPane.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("STUDENT GRADE CALCULATION");
+		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel.setBounds(10, 23, 586, 47);
+		lblNewLabel.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 33));
+		contentPane.add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("Mathematik");
+		lblNewLabel_1.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1.setBounds(20, 80, 113, 39);
+		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_1_1 = new JLabel("Deutsch\r\n");
+		lblNewLabel_1_1.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_1.setBounds(20, 141, 113, 39);
+		contentPane.add(lblNewLabel_1_1);
+		
+		JLabel lblNewLabel_1_1_1 = new JLabel("Englisch");
+		lblNewLabel_1_1_1.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_1_1.setBounds(20, 204, 113, 39);
+		contentPane.add(lblNewLabel_1_1_1);
+		
+		JLabel lblNewLabel_1_1_2 = new JLabel("GK");
+		lblNewLabel_1_1_2.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_1_2.setBounds(20, 269, 47, 39);
+		contentPane.add(lblNewLabel_1_1_2);
+		
+		JLabel lblNewLabel_1_2 = new JLabel("Technik/Aes/Französisch");
+		lblNewLabel_1_2.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_2.setBounds(424, 80, 245, 39);
+		contentPane.add(lblNewLabel_1_2);
+		
+		JLabel lblNewLabel_1_3 = new JLabel("WBS");
+		lblNewLabel_1_3.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_3.setBounds(510, 141, 69, 39);
+		contentPane.add(lblNewLabel_1_3);
+		
+		JLabel lblNewLabel_1_4 = new JLabel("Geschichte");
+		lblNewLabel_1_4.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_4.setBounds(500, 204, 113, 39);
+		contentPane.add(lblNewLabel_1_4);
+		
+		JLabel lblNewLabel_1_5 = new JLabel("Informatik");
+		lblNewLabel_1_5.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_5.setBounds(500, 269, 113, 39);
+		contentPane.add(lblNewLabel_1_5);
+		
+		JLabel lblNewLabel_1_6 = new JLabel("Sport");
+		lblNewLabel_1_6.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_6.setBounds(20, 333, 113, 39);
+		contentPane.add(lblNewLabel_1_6);
+		
+		JLabel lblNewLabel_1_7 = new JLabel("Chemie");
+		lblNewLabel_1_7.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_7.setBounds(500, 333, 113, 39);
+		contentPane.add(lblNewLabel_1_7);
+		
+		JLabel lblNewLabel_1_8 = new JLabel("Physik");
+		lblNewLabel_1_8.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_8.setBounds(20, 404, 113, 39);
+		contentPane.add(lblNewLabel_1_8);
+		
+		JLabel lblNewLabel_1_9 = new JLabel("Geographie");
+		lblNewLabel_1_9.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_1_9.setBounds(500, 404, 113, 39);
+		contentPane.add(lblNewLabel_1_9);
+	
+		
+		textField = new JTextField();
+		textField.setBounds(10, 303, 96, 19);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		textField_1 = new JTextField();
+		textField_1.setColumns(10);
+		textField_1.setBounds(10, 253, 96, 19);
+		contentPane.add(textField_1);
+		
+		textField_2 = new JTextField();
+		textField_2.setColumns(10);
+		textField_2.setBounds(10, 179, 96, 19);
+		contentPane.add(textField_2);
+		
+		textField_3 = new JTextField();
+		textField_3.setColumns(10);
+		textField_3.setBounds(10, 117, 96, 19);
+		contentPane.add(textField_3);
+		
+		textField_4 = new JTextField();
+		textField_4.setColumns(10);
+		textField_4.setBounds(500, 117, 96, 19);
+		contentPane.add(textField_4);
+		
+		textField_5 = new JTextField();
+		textField_5.setColumns(10);
+		textField_5.setBounds(500, 179, 96, 19);
+		contentPane.add(textField_5);
+		
+		textField_6 = new JTextField();
+		textField_6.setColumns(10);
+		textField_6.setBounds(500, 237, 96, 19);
+		contentPane.add(textField_6);
+		
+		textField_7 = new JTextField();
+		textField_7.setColumns(10);
+		textField_7.setBounds(500, 303, 96, 19);
+		contentPane.add(textField_7);
+		
+		textField_8 = new JTextField();
+		textField_8.setColumns(10);
+		textField_8.setBounds(500, 368, 96, 19);
+		contentPane.add(textField_8);
+		
+		textField_9 = new JTextField();
+		textField_9.setColumns(10);
+		textField_9.setBounds(10, 368, 96, 19);
+		contentPane.add(textField_9);
+		
+		textField_10 = new JTextField();
+		textField_10.setColumns(10);
+		textField_10.setBounds(10, 440, 96, 19);
+		contentPane.add(textField_10);
+		
+		textField_11 = new JTextField();
+		textField_11.setColumns(10);
+		textField_11.setBounds(500, 440, 96, 19);
+		contentPane.add(textField_11);
+		
+		JLabel lblNewLabel_2 = new JLabel("Your Average Score is");
+		lblNewLabel_2.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 20));
+		lblNewLabel_2.setBounds(188, 357, 188, 39);
+		contentPane.add(lblNewLabel_2);
+		
+		textField_12 = new JTextField();
+		textField_12.setBounds(220, 404, 106, 19);
+		contentPane.add(textField_12);
+		textField_12.setColumns(10);
+		
+		JLabel lblNewLabel_3 = new JLabel("Biologie");
+		lblNewLabel_3.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_3.setBounds(20, 487, 96, 21);
+		contentPane.add(lblNewLabel_3);
+		
+		JLabel lblNewLabel_4 = new JLabel("Ethik/kkr/Religion");
+		lblNewLabel_4.setFont(new Font("Times New Roman", Font.BOLD, 20));
+		lblNewLabel_4.setBounds(471, 479, 177, 37);
+		contentPane.add(lblNewLabel_4);
+		
+		textField_13 = new JTextField();
+		textField_13.setBounds(10, 518, 96, 19);
+		contentPane.add(textField_13);
+		textField_13.setColumns(10);
+		
+		textField_14 = new JTextField();
+		textField_14.setBounds(500, 516, 96, 19);
+		contentPane.add(textField_14);
+		textField_14.setColumns(10);
+		
+		JLabel lblNewLabel_5 = new JLabel("Your Name\r\n");
+		lblNewLabel_5.setFont(new Font("Times New Roman", Font.BOLD, 24));
+		lblNewLabel_5.setBounds(220, 83, 120, 29);
+		contentPane.add(lblNewLabel_5);
+		
+		textField_15 = new JTextField();
+		textField_15.setBounds(188, 122, 188, 29);
+		contentPane.add(textField_15);
+		textField_15.setColumns(10);
+		
+		JLabel lblNewLabel_6 = new JLabel("Class");
+		lblNewLabel_6.setFont(new Font("Times New Roman", Font.BOLD, 24));
+		lblNewLabel_6.setBounds(220, 170, 156, 29);
+		contentPane.add(lblNewLabel_6);
+		
+		textField_16 = new JTextField();
+		textField_16.setBounds(220, 204, 106, 19);
+		contentPane.add(textField_16);
+		textField_16.setColumns(10);
+		
+		textField_17 = new JTextField();
+		textField_17.setBounds(220, 455, 96, 19);
+		contentPane.add(textField_17);
+		textField_17.setColumns(10);
+	
+	
+	JButton btnNewButton = new JButton("Press here");
+	btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 18));
+	btnNewButton.addActionListener(new ActionListener() {
+
+		public void actionPerformed(ActionEvent e) {
+				int m1 = Integer.parseInt(txt1.getText());
+				
+				int m16 = Integer.parseInt(textField.getText());
+			
+				int m2 = Integer.parseInt(txt2.getText());
+				
+				int m3 = Integer.parseInt(txt3.getText());
+				
+				int m4 = Integer.parseInt(txt4.getText());
+				
+				int m5 = Integer.parseInt(txt5.getText());
+			
+				int m6 = Integer.parseInt(txt6.getText());
+				
+				int m7 = Integer.parseInt(txt7.getText());
+				
+				int m8 = Integer.parseInt(txt8.getText());
+				
+				int m9 = Integer.parseInt(txt9.getText());
+				
+				int m10 = Integer.parseInt(txt10.getText());
+				
+				int m11 = Integer.parseInt(txt11.getText());
+			
+				int m13 = Integer.parseInt(txt13.getText());
+				
+				int m14 = Integer.parseInt(txt14.getText());
+				
+				float tot = m1 + m2 + m3 + m4 + m5+ m6+ m7 + m8 + m9 + m10 + m11 + m13 + m14 + m16;
+				
+				double avg = tot/16;
+				
+				txt12.setText (String.valueOf(avg));
+				
+				txt17.setText (String.valueOf(tot));
+				
+		}
+	});
+	btnNewButton.setBounds(220, 514, 156, 21);
+	contentPane.add(btnNewButton);
+	}
+}
+
+
